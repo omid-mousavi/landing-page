@@ -11,6 +11,7 @@ body {
 .header {
   justify-content: center;
   gap: 16px;
+  padding: 0 0 75px 0;
 }
 .logo, .header.right {
   width: 390px;
@@ -20,9 +21,11 @@ body {
 .header.right {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .logo.head {
   font-size: 24px;
+  margin: 0 0 74px 0;
 }
 .logo.par1 {
   font-size: 48px;
@@ -39,11 +42,13 @@ body {
   color: #F9FAF8;
   width: 90px;
   height: 25px;
+  margin-top: 8px;
 }
 ul {
   list-style-type: none;
   display: flex;
   gap: 16px;
+  margin: 5px 0;
 }
 a {
   text-decoration: none;
