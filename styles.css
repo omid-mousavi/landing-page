@@ -104,3 +104,32 @@ a {
   text-align: right;
   padding-right: 80px;
 }
+.sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F9FAF8;
+  padding: 100px;
+}
+.sign-box {
+  background-color: #3882F6;
+  border-radius: 15px;
+  width: 700px;
+  height: 180px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sign button {
+  background-color: #3882F6;
+  border: 2px solid #F9FAF8;
+  border-radius: 5px;
+  color: #F9FAF8;
+  width: 90px;
+  height: 25px;
+}
+.sign-head {
+  font-weight: bolder;
+  font-size: 24px;
+}
