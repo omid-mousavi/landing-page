@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.header, .footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+.logo.head {
+  font-size: 24px;
+}
+.logo.par1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+}
+.logo.par2, .header.right {
+  font-size: 18px;
+  color: #E5E7EB;
+}
