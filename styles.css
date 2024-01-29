@@ -10,11 +10,16 @@ body {
 }
 .header {
   justify-content: center;
+  gap: 16px;
 }
 .logo, .header.right {
   width: 390px;
   padding: 0;
   margin: 0;
+}
+.header.right {
+  display: flex;
+  flex-direction: column;
 }
 .logo.head {
   font-size: 24px;
@@ -37,7 +42,14 @@ body {
 }
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
 }
 a {
   text-decoration: none;
+  color: #E5E7EB;
+}
+img {
+  width: 320px;
+  height: auto;
 }
