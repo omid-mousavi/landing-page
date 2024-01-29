@@ -6,15 +6,38 @@ body {
 .header, .footer {
   background-color: #1F2937;
   color: #F9FAF8;
+  display: flex;
+}
+.header {
+  justify-content: center;
+}
+.logo, .header.right {
+  width: 390px;
+  padding: 0;
+  margin: 0;
 }
 .logo.head {
   font-size: 24px;
 }
 .logo.par1 {
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight: bolder;
 }
 .logo.par2, .header.right {
   font-size: 18px;
   color: #E5E7EB;
+}
+.button {
+  background-color: #3882F6;
+  border: 0;
+  border-radius: 5px;
+  color: #F9FAF8;
+  width: 90px;
+  height: 25px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
 }
