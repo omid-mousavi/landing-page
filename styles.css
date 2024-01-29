@@ -54,7 +54,32 @@ a {
   text-decoration: none;
   color: #E5E7EB;
 }
-img {
+.header.right img {
   width: 320px;
   height: auto;
+}
+.info {
+  /* display: flex; */
+}
+.title-info {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  text-align: center;
+  margin: 32px 0;
+}
+.info-div {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.card-info {
+  text-align: center;
+  width: 150px;
+}
+.card {
+  border: 5px solid #3882F6;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
 }
